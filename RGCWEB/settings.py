@@ -129,6 +129,11 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'rgcdynamics@gmail.com'
 EMAIL_HOST_PASSWORD = 'RGCc0mpany'
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
+
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 
 
 
